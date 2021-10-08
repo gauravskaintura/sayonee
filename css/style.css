@@ -163,6 +163,43 @@ header .navbar a:hover{
 	letter-spacing: 3pt;
 }
 
+.about{
+  display: flex;
+  flex-wrap: wrap;
+  gap:8rem;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.about .content{
+  flex:1 1 30rem;
+  padding-top: 1.5rem;
+}
+
+.about .image{
+  flex:1 1 10rem;
+}
+
+.about .image img{
+  width:100%;
+  padding:1rem;
+}
+
+
+.about .content h3{
+  font-size: 5rem;
+  color:#333;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+.about .content p{
+  font-size: 1.8rem;
+  color:#666;
+  padding:1rem 0;
+  text-align: justify;
+}
+
 .contact {
   position: relative;
   display: flex;
